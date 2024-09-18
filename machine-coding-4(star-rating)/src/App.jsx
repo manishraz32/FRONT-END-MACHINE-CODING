@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [maxStar, setMaxStar] = useState(5);
-  const [rating, setRating] = useState(3);
+  const [rating, setRating] = useState(0);
   
   const handleStarClick = (value) => {
     setRating(value);
